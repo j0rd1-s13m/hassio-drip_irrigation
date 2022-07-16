@@ -1,4 +1,4 @@
-hub#include <DHT.h>
+#include <DHT.h>
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
@@ -13,6 +13,7 @@ const int mqttPort = 1883;
 IPAddress ip(XXX,XXX,XXX,XXX);     
 IPAddress gateway(XXX,XXX,XXX,XXX);   
 IPAddress subnet(XXX,XXX,XXX,XXX);   
+
 
 WiFiClient espClient;
 PubSubClient client(espClient);
